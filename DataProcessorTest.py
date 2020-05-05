@@ -1,5 +1,5 @@
 import unittest
-from covidtracker import app
+from covidtracker.service import DataProcessor
 from MockCovidApi import MockCovidApi
 
 class TestStringMethods(unittest.TestCase):
@@ -25,7 +25,7 @@ class TestStringMethods(unittest.TestCase):
                                {'date': 20200501, 'death_count': 2073},
                                {'date': 20200430, 'death_count': 1982},
                                {'date': 20200304, 'death_count': 0}]
-        processor = app.DataProcessor()
+        processor = DataProcessor.DataProcessor()
         result = processor.process(fake_data)
         self.assertEqual(expected_dictionary, result)
 
