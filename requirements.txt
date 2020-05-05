@@ -5,3 +5,4 @@ beautifulsoup4
 pytz
 nose
 flask_cors
+blinker
