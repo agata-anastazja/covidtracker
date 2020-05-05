@@ -15,11 +15,11 @@
     </tr>
     </thead>
     <tbody>
+    {% for index, day in enumerate(data, start=1): %}
     <tr>
-        <td id='row1_date'>05 05 2020</td>
-        <td id='row1_death_count'>10</td>
+        <td id="{{"date_"+str(index)}}" >{{ day["date"] }}</td>
+        <td id="{{"death_count_"+str(index)}}">{{ day["death_count"] }}</td>
     </tr>
+    {% endfor %}
     </tbody>
 </table>
-</body>
-</html>
