@@ -3,6 +3,9 @@ from flask_cors import CORS
 import urllib3
 import json
 
+from covidtracker.DataProcessor import DataProcessor
+
+
 class RealCovidApi:
 
     def call_api(self):
@@ -23,8 +26,8 @@ def create_app(covid_api):
     @app.route('/')
     def index():
         data = covid_api.call_api()
-
-        return render_template('index.html', data=data)
+        processed_data = DataProcessor().process(data)
+        return render_template('index.html', data=processed_data)
 
     return app
 
