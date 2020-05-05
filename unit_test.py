@@ -3,22 +3,13 @@ from contextlib import contextmanager
 from flask_testing import TestCase
 import unittest
 from covidtracker.app import create_app
-import json
+from MockCovidApi import MockCovidApi
 
-
-class FakeCovidApi:
-
-    def call_api(self):
-        file = open("./resources/fake_CA_historical_data.json", 'r')
-        r = file.read()
-        file.close()
-        dict = json.loads(r)
-        return dict
 
 class AppTest(TestCase):
 
     def create_app(test_config=None):
-        app = create_app(FakeCovidApi())
+        app = create_app(MockCovidApi())
         return app
 
     @contextmanager
@@ -27,6 +18,7 @@ class AppTest(TestCase):
 
         def record(sender, template, context, **extra):
             recorded.append((template, context))
+
         template_rendered.connect(record, app)
         try:
             yield recorded
@@ -34,7 +26,7 @@ class AppTest(TestCase):
             template_rendered.disconnect(record, app)
 
     def test_californian_historical_data_is_passed(self):
-       with self.captured_templates(self.app) as templates:
+        with self.captured_templates(self.app) as templates:
             rv = self.app.test_client().get('/')
             assert rv.status_code == 200
             assert len(templates) == 1

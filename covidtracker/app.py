@@ -12,6 +12,8 @@ class RealCovidApi:
         return json.loads(html)
 
 
+
+
 def create_app(covid_api):
     app = Flask(__name__)
 
