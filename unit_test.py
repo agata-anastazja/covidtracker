@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from pytz import timezone
 from bs4 import BeautifulSoup
 from flask_testing import LiveServerTestCase
-from app import create_app
+from covidtracker.__init__ import create_app
 
 class MyTest(LiveServerTestCase):
 
@@ -28,8 +28,10 @@ class MyTest(LiveServerTestCase):
         url = self.get_server_url()
 
         http = urllib3.PoolManager()
-        response = http.request('GET', url)
-        html = response
+        # response = http.request('GET', url)
+        response = http.request(url=url, method='GET')
+        html = response.data
+        print(html)
         parsed_html = BeautifulSoup(html)
         expected_header = "California"
         today_string = self.get_today_as_string()

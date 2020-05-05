@@ -4,3 +4,4 @@ Urllib3
 beautifulsoup4
 pytz
 nose
+flask_cors
