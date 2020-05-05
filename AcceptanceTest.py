@@ -1,16 +1,15 @@
 import urllib3
 import unittest
-from flask import jsonify
 from datetime import datetime, timedelta
 from pytz import timezone
 from bs4 import BeautifulSoup
 from flask_testing import LiveServerTestCase
-from covidtracker.__init__ import create_app
+from covidtracker.app import create_app, RealCovidApi
 
 class MyTest(LiveServerTestCase):
 
     def create_app(test_config=None):
-        app = create_app()
+        app = create_app(RealCovidApi())
         return app
 
     def get_today_as_string(self):
@@ -27,7 +26,6 @@ class MyTest(LiveServerTestCase):
         #Given
         url = self.get_server_url()
         http = urllib3.PoolManager()
-        # response = http.request('GET', url)
         response = http.urlopen(method='GET', url=url).data
         parsed_html = BeautifulSoup(response, "html.parser")
 
