@@ -22,13 +22,16 @@ class AppTest(TestCase):
         finally:
             template_rendered.disconnect(record, app)
 
-    def test_server_retrieves_californian_historical_data_for_death_count_including_today_or_yesterday(self):
+    def test_californian_historical_data_is_displayed(self):
        with self.captured_templates(self.app) as templates:
             rv = self.app.test_client().get('/')
             assert rv.status_code == 200
             assert len(templates) == 1
             template, context = templates[0]
             assert template.name == 'index.html'
+#            to check data passed to the template
+#                 assert len(context['items']) == 10
+
 
 if __name__ == '__main__':
     unittest.main()
