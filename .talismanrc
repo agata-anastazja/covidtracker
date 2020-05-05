@@ -1,0 +1,5 @@
+fileignoreconfig:
+- filename: resources/fake_CA_historical_data.json
+  checksum: a2ad6f39ec05a2ef42b659a7b97ca2137b393b46ac8c3feae27c9b5e29f2efd2
+  ignore_detectors: []
+scopeconfig: []
