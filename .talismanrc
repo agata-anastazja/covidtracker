@@ -2,4 +2,7 @@ fileignoreconfig:
 - filename: resources/fake_CA_historical_data.json
   checksum: a2ad6f39ec05a2ef42b659a7b97ca2137b393b46ac8c3feae27c9b5e29f2efd2
   ignore_detectors: []
+- filename: resources/fake_CA_historical_data_where_each_day_has_death_key.json
+  checksum: afe17a9bd24e6b617ec0ca554cad56e8915e837597ce359e156998c1f8b582f8
+  ignore_detectors: []
 scopeconfig: []
