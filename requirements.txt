@@ -1,0 +1,6 @@
+Flask
+Flask-Testing
+Urllib3
+beautifulsoup4
+pytz
+nose
