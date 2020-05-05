@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
 </head>
 <body>
 <h1 id="state">California</h1>
-
+<table>
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Death count</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td id='row1_date'>05 05 2020</td>
+        <td id='row1_death_count'>10</td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
