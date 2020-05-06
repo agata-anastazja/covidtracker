@@ -5,4 +5,7 @@ fileignoreconfig:
 - filename: resources/fake_CA_historical_data_where_each_day_has_death_key.json
   checksum: afe17a9bd24e6b617ec0ca554cad56e8915e837597ce359e156998c1f8b582f8
   ignore_detectors: []
+- filename: webapp/tests/MockCovidApi.py
+  checksum: 1337d1566da56a8d658b1588258ffb78891b19598d2c481b331289858ce7d866
+ignore_detectors: []
 scopeconfig: []

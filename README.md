@@ -32,13 +32,21 @@ To run locally, all you need to do is run a setup script
 ./local.sh
 ```
 
+### Testing
+
+To run locally run
+```$xslt
+nosetests
+```
+
 ### Approach to the task
 I have broken the task down and prioritised making a call to the API while hardcoding the state of California. I was 
 test driving and working in small slices to satisfy expected user need.
 
 ### Given more time
 The next steps would be as follows:
-* improving project structure by extracting data processor
+* error handling for when the api call goes wrong
+* logging for api call
 * provided the users with more stats about the state of California
 * provided the users with the option to choose which state's stats they can see
 * made it more user friendly with React frontend replacing jinja templates
