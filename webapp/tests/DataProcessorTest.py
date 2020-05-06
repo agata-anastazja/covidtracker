@@ -1,6 +1,6 @@
 import unittest
-from covidtracker.app import DataProcessor
-from MockCovidApi import MockCovidApi
+from webapp.covidtracker.app import DataProcessor
+from webapp.tests.MockCovidApi import MockCovidApi
 
 class TestStringMethods(unittest.TestCase):
 

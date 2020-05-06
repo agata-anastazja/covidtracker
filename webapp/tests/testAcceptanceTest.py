@@ -1,10 +1,11 @@
+
 import urllib3
 import unittest
 from datetime import datetime, timedelta
 from pytz import timezone
 from bs4 import BeautifulSoup
 from flask_testing import LiveServerTestCase
-from covidtracker.app import create_app, RealCovidApi
+from webapp.covidtracker.app import create_app, RealCovidApi
 
 class MyTest(LiveServerTestCase):
 

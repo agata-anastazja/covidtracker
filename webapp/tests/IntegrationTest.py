@@ -2,8 +2,8 @@ from flask import template_rendered
 from contextlib import contextmanager
 from flask_testing import TestCase
 import unittest
-from covidtracker.app import create_app
-from MockCovidApi import MockCovidApi
+from webapp.covidtracker import create_app
+from webapp.tests.MockCovidApi import MockCovidApi
 
 
 class AppTest(TestCase):
