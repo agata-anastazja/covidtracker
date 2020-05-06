@@ -35,7 +35,6 @@ class MyTest(LiveServerTestCase):
         yesterday_string = self.get_yesterday_as_string()
         #Then
         latest_date = parsed_html.find(id='date_1').get_text()
-        print(latest_date)
         latest_death_count = int(parsed_html.find(id='death_count_1').get_text())
 
         header = parsed_html.find(id='state').get_text()

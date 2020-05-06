@@ -2,7 +2,7 @@ from flask import template_rendered
 from contextlib import contextmanager
 from flask_testing import TestCase
 import unittest
-from webapp.covidtracker import create_app
+from webapp.covidtracker.app import create_app
 from webapp.tests.MockCovidApi import MockCovidApi
 
 
@@ -32,12 +32,12 @@ class AppTest(TestCase):
             assert len(templates) == 1
             template, context = templates[0]
             assert template.name == 'index.html'
-            expected_dictionary = [{'date': 20200504, 'death_count': 2254},
-                                   {'date': 20200503, 'death_count': 2215},
-                                   {'date': 20200502, 'death_count': 2171},
-                                   {'date': 20200501, 'death_count': 2073},
-                                   {'date': 20200430, 'death_count': 1982},
-                                   {'date': 20200304, 'death_count': 0}]
+            expected_dictionary = [{'date': '05 04 2020', 'death_count': 2254},
+                                   {'date': '05 03 2020', 'death_count': 2215},
+                                   {'date': '05 02 2020', 'death_count': 2171},
+                                   {'date': '05 01 2020', 'death_count': 2073},
+                                   {'date': '04 30 2020', 'death_count': 1982},
+                                   {'date': '03 04 2020', 'death_count': 0}]
             self.assertEqual(context['data'], expected_dictionary)
 
 

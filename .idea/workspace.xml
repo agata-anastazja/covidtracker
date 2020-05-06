@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1e8df0c-01c9-4551-b864-b911a384b4f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webapp/covidtracker/service/DataProcessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/covidtracker/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/tests/resources/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataProcessorTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/DataProcessorTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegrationTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/IntegrationTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockCovidApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/MockCovidApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/covidtracker/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidtracker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidtracker/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/covidtracker/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidtracker/service/DataProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/covidtracker/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidtracker/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/covidtracker/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidtracker/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/covidtracker/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/local.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nose_debug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fake_CA_historical_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/resources/fake_CA_historical_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fake_CA_historical_data_where_each_day_has_death_key.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/resources/fake_CA_historical_data_where_each_day_has_death_key.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myproject.egg-info/SOURCES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testAcceptanceTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/testAcceptanceTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/resources/fake_CA_historical_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/resources/fake_CA_historical_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/resources/fake_CA_historical_data_where_each_day_has_death_key.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/resources/fake_CA_historical_data_where_each_day_has_death_key.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/tests/DataProcessorTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/testDataProcessorTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/tests/IntegrationTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/testIntegrationTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/tests/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/tests/testAcceptanceTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/tests/testAcceptanceTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/tests/resources" />
+      <recent name="$PROJECT_DIR$/webapp/tests" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/api/covidtracker" />
       <recent name="$PROJECT_DIR$/api/tests" />
-      <recent name="$PROJECT_DIR$/api" />
-      <recent name="$PROJECT_DIR$/covidtracker" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
@@ -83,7 +73,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for DataProcessorTest.TestStringMethods">
+  <component name="RunManager" selected="Bash.run_tests.sh">
+    <configuration name="run_tests.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="covidtracker" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="covidtracker" type="PythonConfigurationType" factoryName="Python">
       <module name="covidtracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,43 +107,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="covidtracker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for DataProcessorTest.TestStringMethods" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="covidtracker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webapp/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;DataProcessorTest.TestStringMethods&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for api.tests.testAcceptanceTest.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -173,7 +139,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for webapp.tests.testAcceptanceTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testDataProcessorTest.TestStringMethods" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="covidtracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +150,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;webapp.tests.testAcceptanceTest&quot;" />
+      <option name="_new_target" value="&quot;testDataProcessorTest.TestStringMethods&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for webapp.tests.testAcceptanceTest.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testIntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="covidtracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,17 +165,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;webapp.tests.testAcceptanceTest.MyTest&quot;" />
+      <option name="_new_target" value="&quot;testIntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for webapp.tests.testIntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="covidtracker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webapp/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;webapp.tests.testIntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for DataProcessorTest.TestStringMethods" />
+        <item itemvalue="Bash.run_tests.sh" />
+        <item itemvalue="Python tests.Unittests for testIntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed" />
+        <item itemvalue="Python tests.Unittests for testDataProcessorTest.TestStringMethods" />
         <item itemvalue="Python tests.Unittests for testAcceptanceTest.MyTest" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.Unittests for api.tests.testAcceptanceTest.MyTest" />
-        <item itemvalue="Python tests.Unittests for webapp.tests.testAcceptanceTest.MyTest" />
+        <item itemvalue="Python tests.Unittests for webapp.tests.testIntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +207,7 @@
       <workItem from="1588662940864" duration="7571000" />
       <workItem from="1588671975181" duration="9286000" />
       <workItem from="1588686378659" duration="28275000" />
-      <workItem from="1588742582802" duration="6451000" />
+      <workItem from="1588742582802" duration="8304000" />
     </task>
     <servers />
   </component>
@@ -242,9 +223,10 @@
       <screen x="0" y="23" width="1600" height="774" />
     </state>
     <state x="264" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1600.774@0.23.1600.774" timestamp="1588745056541" />
-    <state x="100" y="113" width="1015" height="612" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588742463479">
-      <screen x="0" y="23" width="1600" height="783" />
+    <state x="100" y="113" width="1015" height="609" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588750535660">
+      <screen x="0" y="23" width="1600" height="779" />
     </state>
+    <state x="100" y="113" width="1015" height="609" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1600.779@0.23.1600.779" timestamp="1588750535660" />
     <state x="100" y="113" width="1015" height="612" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1600.783@0.23.1600.783" timestamp="1588742463479" />
     <state x="100" y="113" width="600" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1600.787@0.23.1600.787" timestamp="1588688294805" />
     <state x="100" y="113" width="1015" height="612" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1600.791@0.23.1600.791" timestamp="1588721497108" />
@@ -258,34 +240,38 @@
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state width="797" height="466" key="DebuggerActiveHint/0.23.1600.877@0.23.1600.877" timestamp="1588685520547" />
-    <state width="758" height="134" key="GridCell.Tab.0.bottom" timestamp="1588749781872">
+    <state width="1449" height="260" key="GridCell.Tab.0.bottom" timestamp="1588751363814">
       <screen x="0" y="23" width="1600" height="774" />
     </state>
-    <state width="758" height="134" key="GridCell.Tab.0.bottom/0.23.1600.774@0.23.1600.774" timestamp="1588749781872" />
+    <state width="1449" height="260" key="GridCell.Tab.0.bottom/0.23.1600.774@0.23.1600.774" timestamp="1588751363814" />
+    <state width="1449" height="260" key="GridCell.Tab.0.bottom/0.23.1600.779@0.23.1600.779" timestamp="1588750712927" />
     <state width="1558" height="227" key="GridCell.Tab.0.bottom/0.23.1600.783@0.23.1600.783" timestamp="1588742534667" />
     <state width="1558" height="229" key="GridCell.Tab.0.bottom/0.23.1600.787@0.23.1600.787" timestamp="1588704279742" />
     <state width="1558" height="229" key="GridCell.Tab.0.bottom/0.23.1600.791@0.23.1600.791" timestamp="1588724267043" />
     <state width="758" height="229" key="GridCell.Tab.0.bottom/0.23.1600.877@0.23.1600.877" timestamp="1588687818247" />
-    <state width="758" height="134" key="GridCell.Tab.0.center" timestamp="1588749781871">
+    <state width="1449" height="260" key="GridCell.Tab.0.center" timestamp="1588751363813">
       <screen x="0" y="23" width="1600" height="774" />
     </state>
-    <state width="758" height="134" key="GridCell.Tab.0.center/0.23.1600.774@0.23.1600.774" timestamp="1588749781871" />
+    <state width="1449" height="260" key="GridCell.Tab.0.center/0.23.1600.774@0.23.1600.774" timestamp="1588751363813" />
+    <state width="1449" height="260" key="GridCell.Tab.0.center/0.23.1600.779@0.23.1600.779" timestamp="1588750712927" />
     <state width="1558" height="227" key="GridCell.Tab.0.center/0.23.1600.783@0.23.1600.783" timestamp="1588742534667" />
     <state width="1558" height="229" key="GridCell.Tab.0.center/0.23.1600.787@0.23.1600.787" timestamp="1588704279741" />
     <state width="1558" height="229" key="GridCell.Tab.0.center/0.23.1600.791@0.23.1600.791" timestamp="1588724267042" />
     <state width="758" height="229" key="GridCell.Tab.0.center/0.23.1600.877@0.23.1600.877" timestamp="1588687818246" />
-    <state width="758" height="134" key="GridCell.Tab.0.left" timestamp="1588749781871">
+    <state width="1449" height="260" key="GridCell.Tab.0.left" timestamp="1588751363812">
       <screen x="0" y="23" width="1600" height="774" />
     </state>
-    <state width="758" height="134" key="GridCell.Tab.0.left/0.23.1600.774@0.23.1600.774" timestamp="1588749781871" />
+    <state width="1449" height="260" key="GridCell.Tab.0.left/0.23.1600.774@0.23.1600.774" timestamp="1588751363812" />
+    <state width="1449" height="260" key="GridCell.Tab.0.left/0.23.1600.779@0.23.1600.779" timestamp="1588750712926" />
     <state width="1558" height="227" key="GridCell.Tab.0.left/0.23.1600.783@0.23.1600.783" timestamp="1588742534666" />
     <state width="1558" height="229" key="GridCell.Tab.0.left/0.23.1600.787@0.23.1600.787" timestamp="1588704279741" />
     <state width="1558" height="229" key="GridCell.Tab.0.left/0.23.1600.791@0.23.1600.791" timestamp="1588724267042" />
     <state width="758" height="229" key="GridCell.Tab.0.left/0.23.1600.877@0.23.1600.877" timestamp="1588687818245" />
-    <state width="758" height="134" key="GridCell.Tab.0.right" timestamp="1588749781872">
+    <state width="1449" height="260" key="GridCell.Tab.0.right" timestamp="1588751363813">
       <screen x="0" y="23" width="1600" height="774" />
     </state>
-    <state width="758" height="134" key="GridCell.Tab.0.right/0.23.1600.774@0.23.1600.774" timestamp="1588749781872" />
+    <state width="1449" height="260" key="GridCell.Tab.0.right/0.23.1600.774@0.23.1600.774" timestamp="1588751363813" />
+    <state width="1449" height="260" key="GridCell.Tab.0.right/0.23.1600.779@0.23.1600.779" timestamp="1588750712927" />
     <state width="1558" height="227" key="GridCell.Tab.0.right/0.23.1600.783@0.23.1600.783" timestamp="1588742534667" />
     <state width="1558" height="229" key="GridCell.Tab.0.right/0.23.1600.787@0.23.1600.787" timestamp="1588704279742" />
     <state width="1558" height="229" key="GridCell.Tab.0.right/0.23.1600.791@0.23.1600.791" timestamp="1588724267043" />
@@ -314,9 +300,10 @@
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="1003" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1600.877@0.23.1600.877" timestamp="1588686833434" />
-    <state x="507" y="49" width="586" height="739" key="find.popup" timestamp="1588716759933">
-      <screen x="0" y="23" width="1600" height="791" />
+    <state x="507" y="48" width="586" height="724" key="find.popup" timestamp="1588751375151">
+      <screen x="0" y="23" width="1600" height="774" />
     </state>
+    <state x="507" y="48" width="586" height="724" key="find.popup/0.23.1600.774@0.23.1600.774" timestamp="1588751375151" />
     <state x="507" y="49" width="586" height="735" key="find.popup/0.23.1600.787@0.23.1600.787" timestamp="1588703857831" />
     <state x="507" y="49" width="586" height="739" key="find.popup/0.23.1600.791@0.23.1600.791" timestamp="1588716759933" />
     <state x="223" y="23" key="new project wizard" timestamp="1588723407072">
@@ -342,9 +329,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_AcceptanceTest_MyTest_test_getting_historical_data_for_death_count_from_california.coverage" NAME="Unittests for AcceptanceTest.MyTest.test_getting_historical_data_for_death_count_from_california Coverage Results" MODIFIED="1588722324304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_IntegrationTest_AppTest_test_californian_historical_data_is_processed_and_passed.coverage" NAME="Unittests for IntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed Coverage Results" MODIFIED="1588750254005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
     <SUITE FILE_PATH="coverage/covidtracker$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1588707570204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covidtracker" />
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_AcceptanceTest_MyTest.coverage" NAME="Unittests for tests.testAcceptanceTest.MyTest Coverage Results" MODIFIED="1588743422095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_DataProcessorTest_TestStringMethods_test_data_processor_extracts_the_death_count_per_day_from_list_of_days_when_some_days_have_no_death.coverage" NAME="Unittests for DataProcessorTest.TestStringMethods.test_data_processor_extracts_the_death_count_per_day_from_list_of_days_when_some_days_have_no_death Coverage Results" MODIFIED="1588724249122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_testDataProcessorTest_TestStringMethods.coverage" NAME="Unittests for testDataProcessorTest.TestStringMethods Coverage Results" MODIFIED="1588750710449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_test_api_RepositoryTestCase_test_app_can_get_historical_data_by_state.coverage" NAME="Unittests for test_api.RepositoryTestCase.test_app_can_get_historical_data_by_state Coverage Results" MODIFIED="1588709383716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/covid_tracker$Unittests_for_MyTest_MyTest_test_server_retrieves_californian_historical_data_for_death_count_including_today_or_yesterday.coverage" NAME="Unittests for AcceptanceTest.MyTest.test_server_retrieves_californian_historical_data_for_death_count_including_today_or_yesterday Coverage Results" MODIFIED="1588686110580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_unit_test_AppTest_test_californian_historical_data_is_displayed.coverage" NAME="Unittests for unit_test.AppTest.test_californian_historical_data_is_displayed Coverage Results" MODIFIED="1588711534539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -352,12 +341,14 @@
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_unit_test_AppTest_test_californian_historical_data_is_passed.coverage" NAME="Unittests for unit_test.AppTest.test_californian_historical_data_is_passed Coverage Results" MODIFIED="1588720010922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_unit_test_MyTest_test_server_retrieves_californian_historical_data_for_death_count_including_today_or_yesterday.coverage" NAME="Unittests for unit_test.MyTest.test_server_retrieves_californian_historical_data_for_death_count_including_today_or_yesterday Coverage Results" MODIFIED="1588701722964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/covid_tracker$Unittests_for_MyTest_MyTest.coverage" NAME="Unittests for MyTest.MyTest Coverage Results" MODIFIED="1588683933691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_DataProcessorTest_TestStringMethods.coverage" NAME="Unittests for DataProcessorTest.TestStringMethods Coverage Results" MODIFIED="1588749781861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
-    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_testAcceptanceTest_MyTest.coverage" NAME="Unittests for testAcceptanceTest.MyTest Coverage Results" MODIFIED="1588749654450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
+    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_DataProcessorTest_TestStringMethods.coverage" NAME="Unittests for DataProcessorTest.TestStringMethods Coverage Results" MODIFIED="1588749993562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
+    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_testAcceptanceTest_MyTest.coverage" NAME="Unittests for testAcceptanceTest.MyTest Coverage Results" MODIFIED="1588750706670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
     <SUITE FILE_PATH="coverage/covid_tracker$Unittests_for_MyTest_MyTest_test_server_is_up_and_running.coverage" NAME="Unittests for MyTest.MyTest.test_server_is_up_and_running Coverage Results" MODIFIED="1588663732394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_unit_test_AppTest.coverage" NAME="Unittests for unit_test.AppTest Coverage Results" MODIFIED="1588716846097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_DataProcessorTest_TestStringMethods_test_data_processor_extracts_the_death_count_per_day_from_list_of_days.coverage" NAME="Unittests for DataProcessorTest.TestStringMethods.test_data_processor_extracts_the_death_count_per_day_from_list_of_days Coverage Results" MODIFIED="1588724267034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_DataProcessorTest_TestStringMethods_test_data_processor_extracts_the_death_count_per_day_from_list_of_days.coverage" NAME="Unittests for DataProcessorTest.TestStringMethods.test_data_processor_extracts_the_death_count_per_day_from_list_of_days Coverage Results" MODIFIED="1588749939828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
     <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_AcceptanceTest_MyTest_test_server_retrieves_californian_historical_data_for_death_count_including_today_or_yesterday.coverage" NAME="Unittests for AcceptanceTest.MyTest.test_server_retrieves_californian_historical_data_for_death_count_including_today_or_yesterday Coverage Results" MODIFIED="1588691342417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/covidtracker$test.coverage" NAME="test Coverage Results" MODIFIED="1588746407187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_testIntegrationTest_AppTest_test_californian_historical_data_is_processed_and_passed.coverage" NAME="Unittests for testIntegrationTest.AppTest.test_californian_historical_data_is_processed_and_passed Coverage Results" MODIFIED="1588750712918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
+    <SUITE FILE_PATH="coverage/covidtracker$Unittests_for_IntegrationTest_AppTest.coverage" NAME="Unittests for IntegrationTest.AppTest Coverage Results" MODIFIED="1588750052432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp/tests" />
   </component>
 </project>

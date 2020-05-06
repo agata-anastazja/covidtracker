@@ -8,9 +8,9 @@ webapp/covidtracker/__init__.py
 webapp/covidtracker/app.py
 webapp/covidtracker/service/DataProcessor.py
 webapp/covidtracker/service/__init__.py
-webapp/tests/DataProcessorTest.py
-webapp/tests/IntegrationTest.py
 webapp/tests/MockCovidApi.py
 webapp/tests/__init__.py
-webapp/tests/test.py
 webapp/tests/testAcceptanceTest.py
+webapp/tests/testDataProcessorTest.py
+webapp/tests/testIntegrationTest.py
+webapp/tests/resources/__init__.py
