@@ -5,8 +5,7 @@ from webapp.tests.MockCovidApi import MockCovidApi
 class TestStringMethods(unittest.TestCase):
 
     def test_data_processor_extracts_the_death_count_per_day_from_list_of_days(self):
-        fake_data = MockCovidApi\
-            .call_api(self, source="./resources/fake_CA_historical_data_where_each_day_has_death_key.json")
+        fake_data = MockCovidApi.call_api(self)
         expected_dictionary = [{'date': '05 04 2020', 'death_count': 2254},
                                {'date': '05 03 2020', 'death_count': 2215},
                                {'date': '05 02 2020', 'death_count': 2171},
@@ -18,7 +17,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(expected_dictionary, result)
 
     def test_data_processor_extracts_the_death_count_per_day_from_list_of_days_when_some_days_have_no_death(self):
-        fake_data = MockCovidApi .call_api(self)
+        fake_data = MockCovidApi .call_api_with_no_deaths(self)
         expected_dictionary = [{'date': '05 04 2020', 'death_count': 2254},
                                {'date': '05 03 2020', 'death_count': 2215},
                                {'date': '05 02 2020', 'death_count': 2171},

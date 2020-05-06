@@ -13,4 +13,3 @@ webapp/tests/__init__.py
 webapp/tests/testAcceptanceTest.py
 webapp/tests/testDataProcessorTest.py
 webapp/tests/testIntegrationTest.py
-webapp/tests/resources/__init__.py
